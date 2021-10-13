@@ -3,7 +3,7 @@
 Replace jQuery methods with Vanilla Javascript
 
 <p align="center">
-  <a><img src="./images/green_heart" alt="Desenhando escudo do Coritiba com CSS - minimalista" title="Desenhando escudo do Coritiba com CSS - minimalista"></a>
+  <a><img src="./images/video-1-youtube-capa.png" alt="Desenhando escudo do Coritiba com CSS - minimalista" title="Desenhando escudo do Coritiba com CSS - minimalista"></a>
 </p>
 
 [▶️ Youtube vídeo](https://www.youtube.com/watch?v=SPd3OlV3dF8&ab_channel=LaisFrigerio)
