@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desenhando escudo do Coritiba com CSS - formato minimalista">
+  <title>Coritiba</title>
+  <style>
+    * {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0d574a;
+      height: 100vh;
+    }
+
+    .center {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .circle-one {
+      border: 5px solid #fff;
+      border-radius: 50%;
+      height: 300px;
+      width: 300px;
+    }
+
+    .circle-two {
+      border: 5px solid #fff;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+
+    .circle-three {
+      border-radius: 50%;
+      height: 190px;
+      overflow: hidden;
+      position: relative;
+      width: 190px;
+    }
+
+    .circle-three::after,
+    .circle-three::before {
+      background-color: #fff;
+      content: "";
+      height: 75px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+
+    .circle-three::after {
+      border-bottom-left-radius: 80%;
+      border-bottom-right-radius: 80%;
+    }
+
+    .circle-three::before {
+      border-top-left-radius: 80%;
+      border-top-right-radius: 80%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body class="center" id="coritiba">
+  <div class="circle-one center">
+    <div class="circle-two center">
+      <div class="circle-three"></div>
+    </div>
+  </div>
+</body>
+</html>
