@@ -1,15 +1,9 @@
 .flamengo {
   height: 300px;
   width: 250px;
-  background-color: red;
-  background-image: -webkit-linear-gradient(to bottom, transparent 52%, #555 52%);
-  background-image: -moz-linear-gradient(to bottom, transparent 52%, #555 52%);
-  background-image: -o-linear-gradient(to bottom, transparent 52%, #555 52%);
-  background-image: -ms-linear-gradient(to bottom, transparent 52%, #555 52%);
-  background-image: linear-gradient(to bottom, transparent 52%, #3c3c3c 52%);
-  -webkit-background-size: 100% 27%;
-  -moz-background-size: 100% 27%;
-  background-size: 100% 24%;
+  background-color: #c2281d;
+  background-image: linear-gradient(to bottom, transparent 52%, #060208 52%);
+  background-size: 100% 23%;
   border-radius: 0px 0px 100px 100px;
   position: relative;
 }
@@ -17,18 +11,17 @@
 .flamengo::before {
   content: '';
   position: absolute;
-  border-top: 30px solid #f00;
-  border-left: 65px solid transparent;
-  border-right: 65px solid transparent;
-  top: 97%;
-  left: 38%;
-  margin-left: -35px;
+  border-top: 35px solid #c2281d;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  left: 50px;
+  bottom: -22px;
 }
 
 .flamengo::after {
   content: '';
   display: block;
-  background-color: #3c3c3c;
+  background-color: #060208;
   width: 50%;
   height: 40%;
 }
