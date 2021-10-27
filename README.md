@@ -1,6 +1,6 @@
-# 💚 Desenhando escudo do Coritiba com CSS - minimalista
+# Desenhando os escudos de times brasileiros com CSS ⚽
 
-Replace jQuery methods with Vanilla Javascript
+## Escudo do Coritiba 💚
 
 <p align="center">
   <a><img src="./images/video-1-youtube-capa.png" alt="Desenhando escudo do Coritiba com CSS - minimalista" title="Desenhando escudo do Coritiba com CSS - minimalista"></a>
@@ -8,7 +8,7 @@ Replace jQuery methods with Vanilla Javascript
 
 [▶️ Youtube vídeo](https://www.youtube.com/watch?v=SPd3OlV3dF8&ab_channel=LaisFrigerio)
 
-# Desenhando escudo do Flamengo com CSS - minimalista
+## Escudo do Flamengo
 
 <p align="center">
   <a><img src="./images/video-2-youtube-capa.png" alt="Desenhando escudo do Flamengo com CSS - minimalista" title="Desenhando escudo do Flamengo com CSS - minimalista"></a>
