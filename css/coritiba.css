@@ -1,0 +1,59 @@
+.coritiba {
+  align-items: center;
+  background-color: #0d574a;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  width: 300px;
+}
+
+.coritiba .center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.coritiba .circle-one {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.coritiba .circle-two {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.coritiba .circle-three {
+  border-radius: 50%;
+  height: 175px;
+  overflow: hidden;
+  position: relative;
+  width: 175px;
+}
+
+.coritiba .circle-three::after,
+.coritiba .circle-three::before {
+  background-color: #fff;
+  content: "";
+  height: 75px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.coritiba .circle-three::after {
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+}
+
+.coritiba .circle-three::before {
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+  bottom: 0;
+}

@@ -5,74 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Desenhando escudo do Coritiba com CSS - formato minimalista">
-  <title>Coritiba</title>
-  <style>
-    * {
-      border: 0;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: #0d574a;
-      height: 100vh;
-    }
-
-    .center {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-
-    .circle-one {
-      border: 5px solid #fff;
-      border-radius: 50%;
-      height: 300px;
-      width: 300px;
-    }
-
-    .circle-two {
-      border: 5px solid #fff;
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-    }
-
-    .circle-three {
-      border-radius: 50%;
-      height: 175px;
-      overflow: hidden;
-      position: relative;
-      width: 175px;
-    }
-
-    .circle-three::after,
-    .circle-three::before {
-      background-color: #fff;
-      content: "";
-      height: 75px;
-      left: 0;
-      position: absolute;
-      width: 100%;
-    }
-
-    .circle-three::after {
-      border-bottom-left-radius: 80%;
-      border-bottom-right-radius: 80%;
-    }
-
-    .circle-three::before {
-      border-top-left-radius: 80%;
-      border-top-right-radius: 80%;
-      bottom: 0;
-    }
-  </style>
+  <title>Desenhando escudo dos times com CSS</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/coritiba.css">
+  <link rel="stylesheet" href="css/flamengo.css">
 </head>
-<body class="center" id="coritiba">
-  <div class="circle-one center">
+<body class="center">
+  <div class="circle-one center coritiba">
     <div class="circle-two center">
       <div class="circle-three"></div>
     </div>
   </div>
+
+  <div class="flamengo"></div>
 </body>
 </html>
