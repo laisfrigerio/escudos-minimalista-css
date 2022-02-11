@@ -14,7 +14,15 @@
   <a><img src="./images/video-2-youtube-capa.png" alt="Desenhando escudo do Flamengo com CSS - minimalista" title="Desenhando escudo do Flamengo com CSS - minimalista"></a>
 </p>
 
-▶️ Youtube vídeo loading ...
+[▶️ Youtube vídeo](https://www.youtube.com/watch?v=vYnTWPR2utc&ab_channel=LaisFrigerio)
+
+## Escudo do Palmeiras
+
+<p align="center">
+  <a><img src="./images/video-3-youtube-palmeiras-capa.png" alt="Desenhando escudo do Palmeiras com CSS - minimalista" title="Desenhando escudo do Palmeirass com CSS - minimalista"></a>
+</p>
+
+[▶️ Youtube vídeo](https://www.youtube.com/watch?v=NY8oVvXR7cE&ab_channel=LaisFrigerio)
 
 ## 👩 Author
 
