@@ -1,0 +1,84 @@
+:root {
+  --sp-black: #000;
+  --sp-white: #fff;
+  --sp-background: #3f2946;
+  --sp-red: #ed1c24;
+  --sp-yellow: #fef56b;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rectangle {
+  background-color: var(--sp-white);
+  border-radius: 10px 10px 0 0;
+  height: 55px;
+  position: relative;
+  width: 150px;
+}
+
+.rectangle:before {
+  background-color: var(--sp-black);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 41px;
+  left: 7px;
+  right: 0;
+  top: 7px;
+  width: 136px;
+}
+
+.triangle {
+  border-top: 75px solid var(--sp-white);
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  position: relative;
+}
+
+.triangle:before,
+.triangle:after {
+  border-bottom: 60px solid transparent;
+  content: "";
+  position: absolute;
+  top: -75px;
+}
+
+.triangle:before {
+  border-right: 60px solid var(--sp-red);
+  left: -65px;
+}
+
+.triangle:after {
+  border-left: 60px solid var(--sp-black);
+  right: -65px;
+}
+
+.stars {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.star {
+  background-color: var(--sp-red);
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.star.yellow {
+  background-color: var(--sp-yellow);
+}
+
+.stars .bottom {
+  display: flex;
+  gap: 3px;
+}

@@ -1,5 +1,6 @@
 * {
   border: 0;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -8,8 +9,31 @@ body {
   align-items: center;
   background-color: #f1f1f1;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   height: 100vh;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 992px;
   position: relative;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+li {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+
+img {
+  height: 300px;
+  object-fit: cover;
+  width: 300px;
 }
