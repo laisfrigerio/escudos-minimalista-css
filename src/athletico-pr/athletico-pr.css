@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+}
+  
+.athletico {
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.rectangle {
+    width: 150px;
+    height: 25px;
+    background: #c8102e;
+    transform: rotate(-20deg);
+    position: relative;
+}
+
+.second {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 130px;
+}
+
+.third {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 110px;
+}
+
+.forth {
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 90px;
+}
+
+
+.black {
+    background-color: #000;
+}
